@@ -1,29 +1,5 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/H9e3WTsM)
-# Usage
 
-This is a template repository for quickly setting up a data science project
-It includes a simple folder structure and a conda environment for isolated dependency management.
-
-1. Start a new repo using this template
-2. Update your `LICENSE` file.
-3. Update your `README.md` file. 
-4. Set up and activate conda environment
-    1. Rename your conda environment in the `./conda.yml` file.
-    2. Add/change any dependencies and their versions in the `./conda.yml` file.
-    3. Set up your conda environment and activate it by running:
-        ```bash
-        conda env create -f conda.yml
-        conda activate <your-env-name>
-        ```
-5. Add your own scripts in `./src/`
-6. Add your own notebooks in `./notebooks/`
-7. Add your own data in `./data/`
-    gitignore will ignore the data folder when you push to github
-    save a copy of your raw and process data, 
-    pickled models in a Google Drive folder
-    and add the link in the gdrive-links.md file
-8. Add your project documents, reports, presentation pdfs in the `./docs`
-9. Add your references (tutorials, papers, books etc.) in `./references` 
 
 ------------------------------------------------------------------------------
 
@@ -32,9 +8,9 @@ It includes a simple folder structure and a conda environment for isolated depen
 
 ### Executive Summary
 
-... Define the problem
-... What is the data science opportunity
-... Key takeaways
+- [] Define the problem
+- [] What is the data science opportunity
+- [] Key takeaways
 
 ### Demo
 
