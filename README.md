@@ -3,7 +3,7 @@
 
 ------------------------------------------------------------------------------
 
-## Project Title
+## London House Price Prediction
 =========================
 
 ### Executive Summary
