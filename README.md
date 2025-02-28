@@ -8,9 +8,9 @@
 
 ### Executive Summary
 
-- [] Define the problem
-- [] What is the data science opportunity
-- [] Key takeaways
+- [] How does housing price estimate vary
+- [] Examine which features affect the housing price in what ways 
+- [] Housing market can be affected by various socio-economic factors
 
 ### Demo
 
