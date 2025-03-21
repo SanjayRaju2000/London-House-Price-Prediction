@@ -7,10 +7,10 @@
 =========================
 
 ### Executive Summary
+This project aims to develop statistical machine learning models to predict London house prices based on housing property features. 
 
-- [] How does housing price estimate vary
-- [] Examine which features affect the housing price in what ways 
-- [] Housing market can be affected by various socio-economic factors
+### Current Progress
+Initial models using linear and Ridge regression provided a baseline understanding but showed limitations with anomalous coefficients and modest accuracy.
 
 ### Demo
 
@@ -33,8 +33,7 @@
 #### Repository 
 
 * `data` 
-    - contains link to copy of the dataset (stored in a publicly accessible Google Drive folder)
-    - saved copy of aggregated / processed data as long as those are not too large (> 10 MB)
+    Link: https://drive.google.com/drive/folders/1fV7q2s92QuqNteQTlNvH_qrSzXcF6NrC
 
 * `model`
     - joblib dump of final model / model object
