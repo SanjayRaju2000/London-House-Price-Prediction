@@ -37,7 +37,7 @@ https://www.kaggle.com/datasets/jakewright/house-price-data
 
 * `model`
     - final_model.pkl
-    (Saved in notebook folder can be loaded locally)
+    (Saved in notebook folder)
 
 * `notebooks`
     - 01-data-loading-cleaning
