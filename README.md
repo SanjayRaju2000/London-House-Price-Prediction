@@ -36,7 +36,8 @@ https://www.kaggle.com/datasets/jakewright/house-price-data
     Link: https://drive.google.com/drive/folders/1fV7q2s92QuqNteQTlNvH_qrSzXcF6NrC
 
 * `model`
-    - joblib dump of final model / model object
+    - final_model.pkl
+    (Saved in notebook folder can be loaded locally)
 
 * `notebooks`
     - 01-data-loading-cleaning
