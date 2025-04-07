@@ -7,26 +7,26 @@
 =========================
 
 ### Executive Summary
-This project aims to develop statistical machine learning models to predict London house prices based on housing property features. 
+This project aims to predict London house prices using structured machine learning methods. Accurate predictions are important for helping buyers, sellers, and investors better understand property values in a dynamic market.
 
-### Current Progress
-Initial models using linear and Ridge regression provided a baseline understanding but showed limitations with anomalous coefficients and modest accuracy.
+### Impact of Solution
+The final model’s predictions can serve as useful heuristics for property pricing, offering quick, data-driven estimates to support decision-making. This will assist people working in the real estate industry, such as agents, developers, and financial advisors, by providing an additional tool for assessing property values. It will also help potential buyers and sellers better understand market trends and set more informed price expectations.
 
-### Demo
+### Proposed Solution
+- Linear modelling:
+    - Linear regression
+    - Ridge regression
+- Non-linear modelling:
+    - Decision Tree regressor
+    - Random forest regressor
 
-... Show your work:
-...     Data visualisations
-...     Interactive demo (e.g., stremlit app)
-...     Short video of users trying out the solution
+After implementing each model, analysis and evaluation will be carried out to assess its effectiveness. This will provide insights into which model should be used next and what adjustments to the process may be needed to improve results.
 
+### Dataset description
+Refer to '01-data-loading-cleaning' notebook for further details on the dataset.
 
-### Methodology
-
-... High-level diagrams of entire process:
-...     various data processing steps
-...     various modelling directions
-...     various prototyping directions
-
+Link for access to original dataset:
+https://www.kaggle.com/datasets/jakewright/house-price-data
 
 ### Organization
 
@@ -39,13 +39,14 @@ Initial models using linear and Ridge regression provided a baseline understandi
     - joblib dump of final model / model object
 
 * `notebooks`
-    - contains all final notebooks involved in the project
+    - 01-data-loading-cleaning
+    - 02-eda
+    - 03-pre-processing
+    - 04-linear-modelling
+    - 05-non-linear-modelling
 
 * `docs`
-    - contains final report which summarises the project
-
-* `references`
-    - contains papers / tutorials used in the project
+    - Contains Sprint presentation PDFs
 
 * `src`
     - Contains the project source code (refactored from the notebooks)
@@ -65,12 +66,7 @@ Initial models using linear and Ridge regression provided a baseline understandi
 * `LICENSE`
     - Project license
 
-#### Dataset
-
-... Google Drive links to datasets and pickeled models
-
-### Credits & References
-
-... Include any personal learning
+#### Final Conclusion
+The best performing model was the Decision Tree Regressor achieving the highest accuracy and the best generalisation to the data. Refer to '05-non-linear-modelling' notebook for further details. 
 
 ------------------------------------------------------------------------------
