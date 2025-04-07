@@ -7,7 +7,7 @@
 =========================
 
 ### Executive Summary
-This project aims to predict London house prices using structured machine learning methods. Accurate predictions are important for helping buyers, sellers, and investors better understand property values in a dynamic market.
+Housing properties have many attributes that can greatly influence their price such as location, number of rooms and more. This project aims to leverage the patterns presented by these attributes using machine learning methods to accurately predict London house prices. Accurate predictions are important for helping buyers, sellers, and investors better understand property values in a dynamic market.
 
 ### Impact of Solution
 The final model’s predictions can serve as useful heuristics for property pricing, offering quick, data-driven estimates to support decision-making. This will assist people working in the real estate industry, such as agents, developers, and financial advisors, by providing an additional tool for assessing property values. It will also help potential buyers and sellers better understand market trends and set more informed price expectations.
