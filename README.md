@@ -38,7 +38,7 @@ Exploratory data analysis has revealed linear relationships between key features
 
 **Feature importance**
 
-![Ridge Coeff Plot](images/Ridge Coeff.png "Ridge Coefficients")
+![Ridge Coeff Plot](./images/Ridge%20Coeff.png)
 
 **Performance**
 
