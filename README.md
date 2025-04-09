@@ -15,10 +15,11 @@ The final model’s predictions can serve as useful heuristics for property pric
 ### Dataset description
 This dataset details information about residential properties in London, including location, property characteristics, and energy efficiency. Allowing for effective real estate analysis and property valuation across different areas. 
 
-Please refer to '01-data-loading-cleaning' notebook for further details on the dataset.
-
 Link for access to original dataset:
 https://www.kaggle.com/datasets/jakewright/house-price-data
+
+### Data cleaning and pre-processing
+The data must be cleaned and pre-processed in order to remove null values and redundant information, and to convert categorical or textual data into numerical formats. As machine learning models require clean, structured, and fully numeric input to function effectively.
 
 ### Proposed Solution
 - Linear modelling:
@@ -29,6 +30,25 @@ https://www.kaggle.com/datasets/jakewright/house-price-data
     - Random forest regressor
 
 After implementing each model, analysis and evaluation will be carried out to assess its effectiveness. This will provide insights into which model should be used next and what adjustments to the process may be needed to improve results.
+
+### Interpretation
+
+#### Linear modelling
+Exploratory data analysis has revealed linear relationships between key features and price. To meet linear model assumptions, some features were omitted. Ridge regression improved accuracy by reducing overfitting and stabilizing coefficient values when features are correlated.
+
+**Feature importance**
+![Ridge Coeff Plot](/images/Ridge Coeff.png)
+
+**Performance**
+
+#### Non-linear modelling
+
+**Feature importance**
+
+**Performance**
+
+#### Final Conclusion
+The best performing model was the Decision Tree Regressor achieving the highest accuracy and the best generalisation to the data. Refer to '05-non-linear-modelling' notebook for further details. 
 
 ### Organization
 
@@ -69,7 +89,5 @@ After implementing each model, analysis and evaluation will be carried out to as
 * `LICENSE`
     - Project license
 
-#### Final Conclusion
-The best performing model was the Decision Tree Regressor achieving the highest accuracy and the best generalisation to the data. Refer to '05-non-linear-modelling' notebook for further details. 
 
 ------------------------------------------------------------------------------
