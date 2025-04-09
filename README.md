@@ -12,6 +12,14 @@ Housing properties have many attributes that can greatly influence their price s
 ### Impact of Solution
 The final model’s predictions can serve as useful heuristics for property pricing, offering quick, data-driven estimates to support decision-making. This will assist people working in the real estate industry, such as agents, developers, and financial advisors, by providing an additional tool for assessing property values. It will also help potential buyers and sellers better understand market trends and set more informed price expectations.
 
+### Dataset description
+This dataset details information about residential properties in London, including location, property characteristics, and energy efficiency. Allowing for effective real estate analysis and property valuation across different areas. 
+
+Please refer to '01-data-loading-cleaning' notebook for further details on the dataset.
+
+Link for access to original dataset:
+https://www.kaggle.com/datasets/jakewright/house-price-data
+
 ### Proposed Solution
 - Linear modelling:
     - Linear regression
@@ -21,12 +29,6 @@ The final model’s predictions can serve as useful heuristics for property pric
     - Random forest regressor
 
 After implementing each model, analysis and evaluation will be carried out to assess its effectiveness. This will provide insights into which model should be used next and what adjustments to the process may be needed to improve results.
-
-### Dataset description
-Refer to '01-data-loading-cleaning' notebook for further details on the dataset.
-
-Link for access to original dataset:
-https://www.kaggle.com/datasets/jakewright/house-price-data
 
 ### Organization
 
