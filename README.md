@@ -37,7 +37,8 @@ After implementing each model, analysis and evaluation will be carried out to as
 Exploratory data analysis has revealed linear relationships between key features and price. To meet linear model assumptions, some features were omitted. Ridge regression improved accuracy by reducing overfitting and stabilizing coefficient values when features are correlated.
 
 **Feature importance**
-![Ridge Coeff Plot](images/Ridge Coeff.png)
+
+![Ridge Coeff Plot](images/Ridge Coeff.png "Ridge Coefficients")
 
 **Performance**
 
