@@ -40,7 +40,7 @@ Exploratory data analysis has revealed linear relationships between key features
 
 ![Ridge Coeff Plot](./images/Ridge%20Coeff.png)
 
-From this plot it can be seen that the model highlights floor area, tenure, and bathrooms as the most important features which influence the value of a property.
+The Ridge regression model coefficients indicate that the model highlights floor area, tenure, and bathrooms as the most important features which influence the value of a property.
 
 **Performance**
 
@@ -55,7 +55,7 @@ The models developed in this stage, will prove more insightful and achieve a bet
 
 ![DTR Feature Importance Plot](./images/Tree%20Feat%20Imp.png)
 
-Results aligns well with domain expectations and what was uncovered in the exploratory data analysis. With floor area, latitude, longitude, and bathrooms ranked above leasehold tenure and energy rating. The prominence of location variables highlights that property size and location are the primary drivers of value.
+Results attained from Decision Tree Regressor align well with domain expectations and what was uncovered in the exploratory data analysis. With floor area, latitude, longitude, and bathrooms ranked above leasehold tenure and energy rating. The prominence of location variables highlights that property size and location are the primary drivers of value.
 
 **Performance**
 
