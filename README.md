@@ -34,22 +34,37 @@ After implementing each model, analysis and evaluation will be carried out to as
 ### Interpretation
 
 #### Linear modelling
-Exploratory data analysis has revealed linear relationships between key features and price. To meet linear model assumptions, some features were omitted. Ridge regression improved accuracy by reducing overfitting and stabilizing coefficient values when features are correlated.
+Exploratory data analysis has revealed linear relationships between key features and price. To meet linear model assumptions, some features were omitted. Ridge regression improved performance by reducing overfitting and stabilizing coefficient values.
 
 **Feature importance**
 
 ![Ridge Coeff Plot](./images/Ridge%20Coeff.png)
 
+From this plot it can be seen that the model highlights floor area, tenure, and bathrooms as the most important features which influence the value of a property.
+
 **Performance**
 
+![Ridge Residuals](./images/Ridge%20Residuals.png)
+
+The lack of skewness and the concentration of most residuals around zero indicate a good model fit with minimal bias. R^2 score = 0.62. 
+
 #### Non-linear modelling
+The models developed in this stage, will prove more insightful and achieve a better prediction score. This is because latitude and longitude can be included here, location plays a significant role in the pricing of properties so results attained from these models will be more insightful and predictive. 
 
 **Feature importance**
 
+![DTR Feature Importance Plot](./images/Tree%20Feat%20Imp.png)
+
+Results aligns well with domain expectations and what was uncovered in the exploratory data analysis. With floor area, latitude, longitude, and bathrooms ranked above leasehold tenure and energy rating. The prominence of location variables highlights that property size and location are the primary drivers of value.
+
 **Performance**
 
+![DTR Residuals](./images/Tree%20Residuals.png)
+
+Shows a normal distribution with minimal skewness, indicating a good fit and low bias. Decision Tree Regressor produces consistent predictions with lower error.
+
 #### Final Conclusion
-The best performing model was the Decision Tree Regressor achieving the highest accuracy and the best generalisation to the data. Refer to '05-non-linear-modelling' notebook for further details. 
+The best performing model was the Decision Tree Regressor achieving the highest predictive score and the best generalisation to the data. Refer to '05-non-linear-modelling' notebook for further details. 
 
 ### Organization
 
@@ -71,6 +86,9 @@ The best performing model was the Decision Tree Regressor achieving the highest 
 
 * `docs`
     - Contains Sprint presentation PDFs
+
+* `images`
+    - Contains images of plots shown in README file
 
 * `src`
     - Contains the project source code (refactored from the notebooks)
